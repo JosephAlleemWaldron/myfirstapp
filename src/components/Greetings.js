@@ -18,9 +18,9 @@ const Greetings = () => {
             detail = {"Call me at 9"}/>
             {/* JSX - javascript XML */}
             <p>the sum of 9 and 5 is <strong>{9+5}</strong></p>
-            <p>add (3, 5) = { add(3,5)}</p>
-            <p>add (4, 25) = { add(4,25)}</p>
-            <p>add (7, 43) = { add(7,43)}</p>
+            <p>add (3, 5) = { add(3,5) }</p>
+            <p>add (4, 25) = { add(4,25) }</p>
+            <p>add (7, 43) = { add(7,43) }</p>
 
 
         </div>

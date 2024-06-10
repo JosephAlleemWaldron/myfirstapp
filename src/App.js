@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greetings from './components/Greetings';
 import Tax from './components/Tax';
+import Car from './components/Car';
 
 function App() {
   return (
@@ -13,6 +14,17 @@ function App() {
 <Tax price = {20} />
 <Tax price = {40} />
 <Tax price = {70} />
+<Car
+  make = {2019}
+  model = {"Benz"}
+  color = {"black"}
+/>
+
+<Car
+  make = {2023}
+  model = {"civic"}
+  color = {"yellow"}
+/>
  </div>
   );
 }
